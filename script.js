@@ -1,6 +1,6 @@
 function loginLogout(element) {
   console.log('You have logged out')
-  element.innerText = "Log out";
+  element.innerText = "Logout";
 }
 
 function hide(element) {
