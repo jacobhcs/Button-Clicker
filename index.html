@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <h1>Dojonary</h1>
+    <input id="search-bar" type="text" placeholder="Search">
+    <button class="logout-btn" onclick="loginLogout(this)">Login</button>
+  </nav>
+  <div class="main-content">
+    <div class="column1">
+      <div class="definition-card">
+        <div class="term-text">
+          <h2 class="defintion-text-margin">Ninja</h2>
+          <p class="defintion-text-margin"><i>noun</i></p>
+          <p>Plural: <i>ninjas</i></p>
+          <button class="definition-like-btn" onclick="alert('Nanja was liked')">13 likes</button>
+        </div>
+        <div class="definition-wrap">
+          <p #id="wrap-p">A practioner skill in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+        </div>
+      </div>
+      <div class="definition-card2">
+        <div class="term-text">
+          <h2 class="defintion-text-margin">Ninja</h2>
+          <p class="defintion-text-margin"><i>noun</i></p>
+          <p>Plural: <i>ninjas</i></p>
+          <button class="definition-like-btn">13 likes</button>
+        </div>
+        <div class="definition-wrap">
+          <p #id="wrap-p">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+        </div>
+      </div>
+    </div>
+    <div class="column2">
+      <div class="add-definition-card">
+        <div class="add-definition-text">
+          <p class="dojonary-add-text">Dojonary is defined by <b>YOU</b></p>
+          <button class="add-definition-btn" onclick="hide(this)">Add Definition</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
